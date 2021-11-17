@@ -1,0 +1,42 @@
+body {
+    width: calc( 100vw - 25px );
+    height: calc( 100vh - 25px );
+}
+
+div {
+    display: block;
+    width: 100%;
+}
+#main { 
+    height: 100%;
+    border: black thick solid;
+}
+#top {    
+    height: 10%;
+    background-color: red;
+}
+#menu {
+    height: 25%;
+    background-color: green;
+}
+.kozep {
+    float: left;    
+    height: 50%;    
+}
+#leftC {
+    background-color: blue;
+    width: 33%;
+}
+#CC {
+    background-color: rgb(16, 180, 24);
+    width: 34%;
+}
+#rightC {
+    background-color: rgb(111, 0, 255);
+    width: 33%;
+}
+#bottom {
+    float:left;
+    background-color: rgb(211, 150, 36);
+    height: 15%;
+}

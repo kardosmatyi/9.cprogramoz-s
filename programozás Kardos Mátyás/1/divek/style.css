@@ -1,0 +1,10 @@
+body {
+    width: calc(100vw - 50px);
+    height: calc(100vh - 50px);
+}
+
+#piros{
+    border: red;0
+    height: 10%;
+}
+

@@ -1,0 +1,55 @@
+p {
+    color: cornflowerblue;
+    font-size: 25px;
+}
+
+img {
+    display:block;
+    margin: auto;
+    width:50%;
+    transition: width 3s;
+}
+
+img:hover {    
+    width:10%;
+}
+
+a {
+    color:black;
+}
+
+
+
+a:hover{
+    color:rgb(128, 255, 0);
+}
+
+a:active {
+    color: brown;
+}
+
+a:link{
+    color: blue;
+}
+
+#doboz{/*HTML id tulaj.*/
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    border: black thick solid;
+    border border-radius: 150px;
+    
+    left: 15%;
+    top: 10%;
+    width: 150px;
+    height: 150px;
+    background-color: red;
+    color: snow;
+    transition: background-color 2s;
+}
+
+#doboz:hover {
+    background-color: green;
+    color: black;
+}
